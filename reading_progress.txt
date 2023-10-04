@@ -1,1 +1,9 @@
 29/09/2023 Started reading
+02/10/2023 Reached Page 12 - basic program 
+03/10/2023 Page 18 - investigating EOF. How to input EOF from terminal
+           Page 21 - ++ operator
+04/10/2023 Page 25 Need to create a word histogram 
+
+To do
+Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
+Read http://luisbg.blogalia.com//historias/74062

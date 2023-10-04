@@ -1,0 +1,27 @@
+- You can assign value and use that in a condition together.
+        Eg:-
+        while((ch = getchar()) != EOF)
+
+- EOF can be input using Ctrl + D(in Linux). What happens is that no input is passed and getchar() return
+-1 which is equal to EOF in stdlib.h
+
+- All variables that are declared in a program resides in the stack. Anything that is dynamically 
+allocated is stored in the heap.
+
+- A literal can also be used in printf instead of a variable. And the size of a literal is 4 bytes.
+
+- ++a will first increment and then use the value, a++ will first evaluate a and then increment
+
+- To check memory used by a program that is running can be done using the following
+
+        Checked memory allocation by examining 
+        cat /proc/<pid>/maps
+        The memory address for the malloc was in the heap and the local variable was in the stack.
+
+- You can assign values together like this
+        nl = nc = nw = 0;
+
+- Format with leading zeroes using the following syntax
+        printf("%05d",5);        
+
+- When you have many conditions with ||, it will execute from left to right
