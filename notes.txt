@@ -25,3 +25,23 @@ allocated is stored in the heap.
         printf("%05d",5);        
 
 - When you have many conditions with ||, it will execute from left to right
+
+- Wall option should be always used while compiling C program in gcc
+
+- Type of basic variable types in C
+        - unsigned & signed
+                - char
+                - int
+                        - short
+                        - long
+                - float
+                        - short
+                        - long
+                - double
+                        - short
+                        - long
+        extern -> for global
+        static -> Keep it between multiple calls
+        cons -> Compiler stops change of value
+
+ - '' and "" are different. '' is for single character and "" is for character array

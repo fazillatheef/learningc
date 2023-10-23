@@ -1,9 +1,19 @@
+The C Programming Language - 2nd edition
 29/09/2023 Started reading
 02/10/2023 Reached Page 12 - basic program 
 03/10/2023 Page 18 - investigating EOF. How to input EOF from terminal
            Page 21 - ++ operator
 04/10/2023 Page 25 Need to create a word histogram 
+           Reached functions 
+19/10/2023 Page 29 Reached Section 1.9
+           Revise 1.10 again
+22/10/2023 Page 35 Reached Chapter 2
+           Page 39 Reached 2.4 , Revise Enum
+23/10/2023 Page 44 Reached 2.8
+
 
 To do
 Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
 Read http://luisbg.blogalia.com//historias/74062
+Rust lang https://doc.rust-lang.org/book/title-page.html
+Rust lang interactive version https://rust-book.cs.brown.edu/
