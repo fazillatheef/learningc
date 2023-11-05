@@ -45,3 +45,10 @@ allocated is stored in the heap.
         cons -> Compiler stops change of value
 
  - '' and "" are different. '' is for single character and "" is for character array
+
+ - Dont mistake & with && and | with ||
+        ~ for Not
+        >> and << to shift the bits
+
+ - Return type of (condition)? Statement1:Statement2 is generally the bigger of two. If one is int and the 
+ other is float. The return value is float. 

@@ -10,10 +10,15 @@ The C Programming Language - 2nd edition
 22/10/2023 Page 35 Reached Chapter 2
            Page 39 Reached 2.4 , Revise Enum
 23/10/2023 Page 44 Reached 2.8
+28/10/2023 Page 46 Reached Bitwise operators
+           Page 49 Reached Conditional Expression
+29/10/2023 Page 62 Reached Chapter 4 - Chapter 3 had loops and stuff 
+
 
 
 To do
 Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
+https://github.com/karpathy/llama2.c
 Read http://luisbg.blogalia.com//historias/74062
 Rust lang https://doc.rust-lang.org/book/title-page.html
 Rust lang interactive version https://rust-book.cs.brown.edu/
