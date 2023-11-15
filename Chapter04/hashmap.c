@@ -2,7 +2,7 @@
 #include <string.h>
 
 #define MAX_USERS 17
-#define NAME_LEN 20
+#define NAME_LEN  20
 
 typedef struct person{
         char name[NAME_LEN];
@@ -14,7 +14,7 @@ person *table[MAX_USERS];
 int hash(char *name)
 {       
         int index = 0;
-        for(int i=0; i < NAME_LEN; i++){
+        for(int i=0; i < NAME_LEN && name[i] != '\0'; i++){
                 index += name[i] * i;
         }
         return index % MAX_USERS;
@@ -44,11 +44,11 @@ void print_users(person *tab[])
                 if(tab[i] == NULL) 
                         printf("%2d - %s\n", i, "EMPTY");
                 else{
-                        printf("%2d - %s\n",i, tab[i]->name);
+                        printf("%2d - %s(%d)\n",i, tab[i]->name,tab[i]->age);
                         p = tab[i];
                         while(p->next != NULL){
                                 p = p -> next;
-                                printf("\t%s\n", p->name);
+                                printf("\t%s(%d)\n", p->name, p->age);
                         }
                 }
         }
@@ -67,13 +67,18 @@ void find_user(person *tab[],char *name)
         index = hash(name);
         person *tmp;
         tmp = table[index];
-        while(tmp != NULL && strncmp(name,tmp->name,NAME_LEN))
+        int length = strlen(name);
+        while(tmp != NULL && !(strncmp(name,tmp->name,length+1)==0))
+        {
                 tmp = tmp -> next;
-        if(tmp !=NULL && strcmp(tmp->name,name))
-                printf("Found %s\n",name);
+        }
+        if(tmp !=NULL) 
+                printf("Found %s with age %d\n",name,tmp->age);
+        else
+                printf("Did not find anything here\n");
 }
 
-int main()
+int main(int argc,char* argv[])
 {
         person p1 = {.name = "Fazil", .age = 38 };
         person p2 = {.name = "Lamina", .age = 32 };
@@ -96,6 +101,7 @@ int main()
         insert_user(&p9);
         insert_user(&p10);
         print_users(table);
-        find_user(table,"Fazil");
+        if(argc == 2)
+            find_user(table,argv[1]);
         return 0;
 }

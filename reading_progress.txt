@@ -13,7 +13,7 @@ The C Programming Language - 2nd edition
 28/10/2023 Page 46 Reached Bitwise operators
            Page 49 Reached Conditional Expression
 29/10/2023 Page 62 Reached Chapter 4 - Chapter 3 had loops and stuff 
-
+06/11/2023 Page 67 Push and pop impl. - To do
 
 
 To do
