@@ -10,7 +10,7 @@ typedef struct person{
         struct person *next;
 } person;
 
-person *table[MAX_USERS];
+person *table[MAX_USERS] = { NULL };
 int hash(char *name)
 {       
         int index = 0;

@@ -14,11 +14,16 @@ The C Programming Language - 2nd edition
            Page 49 Reached Conditional Expression
 29/10/2023 Page 62 Reached Chapter 4 - Chapter 3 had loops and stuff 
 06/11/2023 Page 67 Push and pop impl. - To do
+16/01/2023 Page 73 Reached reorg of code
 
 
-To do
-Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
+To Read
+os-dev
+Karpathy tutorials
 https://github.com/karpathy/llama2.c
+golang
+Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
 Read http://luisbg.blogalia.com//historias/74062
 Rust lang https://doc.rust-lang.org/book/title-page.html
 Rust lang interactive version https://rust-book.cs.brown.edu/
+DB https://tontinton.com/posts/database-fundementals/
