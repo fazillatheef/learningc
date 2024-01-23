@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     02.polish.o
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A24, symSize: 0x13C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _p_buffer, symObjAddr: 0xF70, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _stack, symObjAddr: 0xF78, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x91, offset: 0x91, size: 0x8, addend: 0x0, symName: _stack_pos, symObjAddr: 0x1298, symBinAddr: 0x100008328, symSize: 0x0 }
+  - { offsetInCU: 0xA6, offset: 0xA6, size: 0x8, addend: 0x0, symName: _buffer, symBinAddr: 0x10000832C, symSize: 0x0 }
+  - { offsetInCU: 0xBB, offset: 0xBB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A24, symSize: 0x13C }
+  - { offsetInCU: 0x10D, offset: 0x10D, size: 0x8, addend: 0x0, symName: _getops, symObjAddr: 0x154, symBinAddr: 0x100003B78, symSize: 0x1E4 }
+  - { offsetInCU: 0x151, offset: 0x151, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x338, symBinAddr: 0x100003D5C, symSize: 0x6C }
+  - { offsetInCU: 0x175, offset: 0x175, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0x3A4, symBinAddr: 0x100003DC8, symSize: 0x70 }
+  - { offsetInCU: 0x18E, offset: 0x18E, size: 0x8, addend: 0x0, symName: _getch, symObjAddr: 0x414, symBinAddr: 0x100003E38, symSize: 0x68 }
+  - { offsetInCU: 0x1A7, offset: 0x1A7, size: 0x8, addend: 0x0, symName: _ungetch, symObjAddr: 0x47C, symBinAddr: 0x100003EA0, symSize: 0x70 }
+...

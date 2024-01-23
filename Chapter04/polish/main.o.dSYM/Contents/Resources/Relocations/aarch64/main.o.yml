@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     main.o
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A24, symSize: 0x13C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003A24, symSize: 0x13C }
+  - { offsetInCU: 0x26, offset: 0xD3, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x0, symBinAddr: 0x100003B78, symSize: 0x6C }
+  - { offsetInCU: 0x4D, offset: 0xFA, size: 0x8, addend: 0x0, symName: _stack_pos, symObjAddr: 0x5F8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x116, size: 0x8, addend: 0x0, symName: _stack, symObjAddr: 0x600, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x132, size: 0x8, addend: 0x0, symName: _push, symObjAddr: 0x0, symBinAddr: 0x100003B78, symSize: 0x6C }
+  - { offsetInCU: 0xA9, offset: 0x156, size: 0x8, addend: 0x0, symName: _pop, symObjAddr: 0x6C, symBinAddr: 0x100003BE4, symSize: 0x70 }
+  - { offsetInCU: 0x26, offset: 0x195, size: 0x8, addend: 0x0, symName: _getch, symObjAddr: 0x0, symBinAddr: 0x100003C54, symSize: 0x68 }
+  - { offsetInCU: 0x4D, offset: 0x1BC, size: 0x8, addend: 0x0, symName: _buffer, symObjAddr: 0x590, symBinAddr: 0x10000832C, symSize: 0x0 }
+  - { offsetInCU: 0x6E, offset: 0x1DD, size: 0x8, addend: 0x0, symName: _p_buffer, symObjAddr: 0x58C, symBinAddr: 0x100008328, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x1ED, size: 0x8, addend: 0x0, symName: _getch, symObjAddr: 0x0, symBinAddr: 0x100003C54, symSize: 0x68 }
+  - { offsetInCU: 0x97, offset: 0x206, size: 0x8, addend: 0x0, symName: _ungetch, symObjAddr: 0x68, symBinAddr: 0x100003CBC, symSize: 0x70 }
+  - { offsetInCU: 0x26, offset: 0x250, size: 0x8, addend: 0x0, symName: _getops, symObjAddr: 0x0, symBinAddr: 0x100003D2C, symSize: 0x1E4 }
+  - { offsetInCU: 0x33, offset: 0x25D, size: 0x8, addend: 0x0, symName: _getops, symObjAddr: 0x0, symBinAddr: 0x100003D2C, symSize: 0x1E4 }
+...
