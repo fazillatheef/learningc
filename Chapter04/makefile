@@ -1,5 +1,5 @@
 CC=gcc
-all : 01.find.o hashmap.o
+all : 01.find.o hashmap.o 02.polish.o
 %.o : %.c
 	$(CC) -Wall -g $< -o $@ 
 
