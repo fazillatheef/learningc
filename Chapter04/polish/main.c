@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
-#include "polish.h"
+#include "polish.h" 
 int main()
 {       
         char s[MAX_BUFFER];

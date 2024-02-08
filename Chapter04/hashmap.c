@@ -4,11 +4,12 @@
 #define MAX_USERS 17
 #define NAME_LEN  20
 
-typedef struct {
+typedef struct person person;
+struct person {
         char name[NAME_LEN];
         int age;
         person *next;
-} person;
+};
 
 person *table[MAX_USERS] = { NULL };
 int hash(char *name)
