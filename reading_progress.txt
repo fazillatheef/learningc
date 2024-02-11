@@ -22,13 +22,15 @@ The C Programming Language - 2nd edition
 
 
 To Read
-os-dev
+beejs tutes
 Karpathy tutorials - downloaded 
 https://github.com/karpathy/llama2.c
+https://github.com/cfenollosa/os-tutorial
 Try building a small linux distro - https://youtu.be/guSDz5Iwgw0?si=8ptxlDQklWW4FNa6
-golang
 Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
+DB https://tontinton.com/posts/database-fundementals/
+os-dev book
+golang
 Read http://luisbg.blogalia.com//historias/74062
 Rust lang https://doc.rust-lang.org/book/title-page.html
 Rust lang interactive version https://rust-book.cs.brown.edu/
-DB https://tontinton.com/posts/database-fundementals/
