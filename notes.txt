@@ -70,3 +70,5 @@ allocated is stored in the heap.
    p[0] = 'z'; is not possible (undefined behaviour)
    q[0] = 'z'; is possible
    t[0] = 'z'; is possible
+
+ - gcc -E source.c to ust expand the source by processing only the defines and includes

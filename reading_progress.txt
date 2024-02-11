@@ -18,6 +18,7 @@ The C Programming Language - 2nd edition
 23/01/2023 Page 76 Learned about static scope
            Page 78 Recursion
 08/02/2024 Page 79 Learned qsort - Exercise 4.12
+11/02/2024 Page 83 Pointer and arrays
 
 
 To Read
