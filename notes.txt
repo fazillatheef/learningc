@@ -8,7 +8,7 @@
 - All variables that are declared in a program resides in the stack. Anything that is dynamically 
 allocated is stored in the heap.
 
-- A literal can also be used in printf instead of a variable. And the size of a literal is 4 bytes.
+- A literal can also be used in printf instead of a variable. 
 
 - ++a will first increment and then use the value, a++ will first evaluate a and then increment
 
@@ -24,7 +24,7 @@ allocated is stored in the heap.
 - Format with leading zeroes using the following syntax
         printf("%05d",5);        
 
-- When you have many conditions with ||, it will execute from left to right
+- When you have many conditions with || or &&, it will execute from left to right
 
 - Wall option should be always used while compiling C program in gcc
 
@@ -41,8 +41,15 @@ allocated is stored in the heap.
                         - short
                         - long
         extern -> for global
-        static -> Keep it between multiple calls
-        cons -> Compiler stops change of value
+                  Should declare the variable properly aftwards in the file to use
+        static -> Keep value of variables between multiple calls
+                  Use a variable within a file, when using multiple files
+        constant -> Compiler stops change of value (this is what we call immutable)
+        volatile -> To stop compiler from optimizing the code while compiling. i.e. in some 
+                    cases the compiler understands that a variable will never change during 
+                    execution. So it might optimize and store the value in a different location 
+                    /register to reuse during execution. While multithreading or hardware input 
+                    is expected this can cause issues. That is when you should use volatile.
 
  - '' and "" are different. '' is for single character and "" is for character array
 
@@ -52,3 +59,14 @@ allocated is stored in the heap.
 
  - Return type of (condition)? Statement1:Statement2 is generally the bigger of two. If one is int and the 
  other is float. The return value is float. 
+
+ - Learned that a variable can be declared within a if block and have the scope within only the if block
+ 
+ - char *p = "hello";
+   char q[] = "hello";
+   char *t = q;
+   Both look almost the same. But the pointer one is immutable. But if a pointer has address of a string
+   then it is mutable.
+   p[0] = 'z'; is not possible (undefined behaviour)
+   q[0] = 'z'; is possible
+   t[0] = 'z'; is possible

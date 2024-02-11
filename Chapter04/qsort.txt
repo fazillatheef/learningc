@@ -1,0 +1,25 @@
+v = 5 7 2 4 8 1
+left = 0 
+right = 5
+
+v = 2 7 5 4 8 1
+last = 0
+
+v = 2 1 5 4 8 7
+v = 1 2 5 4 8 7
+
+v* = 5 4 8 7
+
+Here the trick is to first move the middle item to the beginning.
+[Otherwise if there are more elements that are less than the middle 
+element. Then the middle element must be moved everytime an element
+is moved to left partition.]
+
+Then move all the elements less than the middle one(which is now at 
+the beginning) to the 2nd position onwards. Then the last one that 
+is less than middle one is swapped. Now every element to the left
+of the middle one is less than the middle element. Please note that the middle 
+element may not be in the exact middle. Rest is just repeating the 
+same for the two sides of the array. In C, the array is passed by 
+reference. To implement this in python, list data type can be used
+as it is immutable and python will pass it by reference only

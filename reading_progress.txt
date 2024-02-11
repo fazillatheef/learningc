@@ -15,12 +15,16 @@ The C Programming Language - 2nd edition
 29/10/2023 Page 62 Reached Chapter 4 - Chapter 3 had loops and stuff 
 06/11/2023 Page 67 Push and pop impl. - To do
 16/01/2023 Page 73 Reached reorg of code
+23/01/2023 Page 76 Learned about static scope
+           Page 78 Recursion
+08/02/2024 Page 79 Learned qsort - Exercise 4.12
 
 
 To Read
 os-dev
-Karpathy tutorials
+Karpathy tutorials - downloaded 
 https://github.com/karpathy/llama2.c
+Try building a small linux distro - https://youtu.be/guSDz5Iwgw0?si=8ptxlDQklWW4FNa6
 golang
 Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
 Read http://luisbg.blogalia.com//historias/74062
