@@ -13,19 +13,21 @@ int main(int agrc, char *argv[])
 }
 void qsort(int v[], int left, int right)
 {
-    int i, last;
+    int i, middle_pos;
     
     if (left >= right) /* do nothing if array contains */
         return;        /* fewer than two elements */
     
-    swap(v, left, (left + right)/2); /* move partition elem to safe place*/
-    last = left;                     /* to v[0] */
+    swap(v, left, (left + right)/2); /* save partition elem to safe place*/
+                                    /* to v[0]. Beginning of the array */
+    middle_pos = left; 
     for (i = left + 1; i <= right; i++)  /* partition */
         if (v[i] < v[left])
-            swap(v, ++last, i);
-    swap(v, left, last); /*move the middle elem to the last element position*/
-    qsort(v, left, last-1);
-    qsort(v, last+1, right);
+            swap(v, ++middle_pos, i); /* everything that is less than the middle 
+                                  element will be put to the left*/
+    swap(v, left, middle_pos); /*restore the middle elem to the middle_pos element position*/
+    qsort(v, left, middle_pos-1);
+    qsort(v, middle_pos+1, right);
     /* restore partition  elem */
 }
 

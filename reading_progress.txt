@@ -27,11 +27,11 @@ To Read
 beejs tutes
 Karpathy tutorials - downloaded 
 https://github.com/karpathy/llama2.c
+https://pdos.csail.mit.edu/6.828/2011/xv6/book-rev6.pdf
 https://github.com/cfenollosa/os-tutorial
 Try building a small linux distro - https://youtu.be/guSDz5Iwgw0?si=8ptxlDQklWW4FNa6
 Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
 DB https://tontinton.com/posts/database-fundementals/
-os-dev book
 golang
 Read http://luisbg.blogalia.com//historias/74062
 Rust lang https://doc.rust-lang.org/book/title-page.html

@@ -72,3 +72,5 @@ allocated is stored in the heap.
    t[0] = 'z'; is possible
 
  - gcc -E source.c to ust expand the source by processing only the defines and includes
+
+ - != has more precedence than =
