@@ -2,8 +2,8 @@
         Eg:-
         while((ch = getchar()) != EOF)
 
-- EOF can be input using Ctrl + D(in Linux). What happens is that no input is passed and getchar() return
--1 which is equal to EOF in stdlib.h
+- EOF can be input using Ctrl + D(in Linux) on an empty line. (i.e. first press enter then Ctrl + d)
+ What happens is that no input is passed and getchar() return -1 which is equal to EOF in stdlib.h
 
 - All variables that are declared in a program resides in the stack. Anything that is dynamically 
 allocated is stored in the heap.
