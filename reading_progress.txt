@@ -20,7 +20,8 @@ The C Programming Language - 2nd edition
 08/02/2024 Page 79 Learned qsort - Exercise 4.12
 11/02/2024 Page 83 Pointer and arrays
 16/02/2024 page 86 Pointers and arrays - II
-09/03/2024 page 96 Pointer arrays : Pointer to pointer 
+09/03/2024 page 96 Pointer arrays : Pointer to pointer
+24/03/2024 page 99 Multi Dimensional Arrays
 
 
 To Read
