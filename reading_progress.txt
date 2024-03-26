@@ -37,3 +37,6 @@ golang
 Read http://luisbg.blogalia.com//historias/74062
 Rust lang https://doc.rust-lang.org/book/title-page.html
 Rust lang interactive version https://rust-book.cs.brown.edu/
+
+https://austinhenley.com/blog/teenytinycompiler1.html
+
