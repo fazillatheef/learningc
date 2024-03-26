@@ -28,15 +28,25 @@ To Read
 beejs tutes
 Karpathy tutorials - downloaded 
 https://github.com/karpathy/llama2.c
+
+Compiler study
+https://austinhenley.com/blog/teenytinycompiler1.html
+https://github.com/DoctorWkt/acwj
+
+OS study
 https://pdos.csail.mit.edu/6.828/2011/xv6/book-rev6.pdf
 https://github.com/cfenollosa/os-tutorial
+
+Practical Linux
 Try building a small linux distro - https://youtu.be/guSDz5Iwgw0?si=8ptxlDQklWW4FNa6
 Kernel module development https://tldp.org/LDP/lkmpg/2.6/lkmpg.pdf
 DB https://tontinton.com/posts/database-fundementals/
+
 golang
 Read http://luisbg.blogalia.com//historias/74062
+
+C++ and Rust
 Rust lang https://doc.rust-lang.org/book/title-page.html
 Rust lang interactive version https://rust-book.cs.brown.edu/
 
-https://austinhenley.com/blog/teenytinycompiler1.html
 
